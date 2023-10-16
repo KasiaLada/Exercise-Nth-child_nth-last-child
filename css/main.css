@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #fff;
+  background-color: #333;
+}
+
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+
+td {
+  width: 300px;
+  height: 100px;
+}
+
+tr:nth-child(odd) {
+  background-color: #dbd9d9;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(137, 139, 139);
+}/*# sourceMappingURL=main.css.map */
